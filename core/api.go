@@ -1,5 +1,9 @@
 package core
 
+import (
+	"blockx/models"
+)
+
 type UserApi interface {
 	UserAddEvent()
 }
@@ -11,7 +15,7 @@ type UserManagerApi interface {
 }
 
 type ViewerApi interface {
-	GetOwner(ItemID) User //get owner of a product
+	GetOwner(models.ItemID) models.User //get owner of a product
 }
 
 
@@ -25,15 +29,15 @@ type apiImpl struct {
 }
 
 // user login 
-func (api apiImpl) UserLogin(c UserCredential) (User, error) {
+func (api apiImpl) UserLogin(c models.UserCredential) (models.User, error) {
 	return nil, nil
 }
 
 // user log out, clean up resource
-func (api apiImpl) UserLogout(u User) {
+func (api apiImpl) UserLogout(u models.User) {
 }
 
 // user add an event
-func (api apiImpl) UserAddEvent(u User, e Event) error {
+func (api apiImpl) UserAddEvent(u models.User, e models.Event) error {
 	return nil
 }

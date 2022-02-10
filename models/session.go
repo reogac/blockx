@@ -15,8 +15,8 @@ type Session interface {
 }
 
 
-type SessionDB	interface {
-	GetSettionByID(SessionToken) Session, error //get a session by its token
+type SessionManager	interface {
+	Get(SessionToken) (Session, error) //get a session by its token
 	Add(Session) error //add a new session
-	Delete(SessionToken) //delete a session
+	Delete(SessionToken) error //delete a session
 }

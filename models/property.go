@@ -1,13 +1,13 @@
 package models
 
 import (
-	"fmt"
+//	"fmt"
 	"time"
 )
 
 type Property interface {
 	Item	
-	GetEvents
+	GetEvents()
 	Owner() UserID
 	Created() time.Time
 }

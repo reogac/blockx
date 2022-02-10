@@ -1,8 +1,8 @@
 package models
 
 import (
-	"fmt"
-	"time"
+//	"fmt"
+//	"time"
 )
 
 const (
@@ -13,7 +13,7 @@ type UserID	[USER_ID_LENGTH]byte
 
 type User interface {
 	String() string // string method
-	Name() sring // user name
+	Name() string // user name
 	Identity()	UserID // return user identity
 	Properties() []Property // list all user's properties
 	GetProb(ItemID) Property // get a property by its identity
@@ -25,6 +25,13 @@ type UserProfile struct {
 	Name		string
 	Location	string
 	Birth		string	
+}
+
+
+type UserManager interface {
+	Get(UserID) (User, error)
+	Add(User) error
+	Delete(UserID) error
 }
 
 
