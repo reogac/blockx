@@ -65,17 +65,14 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
    các khó khăn trong việc sử dụng hệ thống. Giải đáp các khúc mắc của người
    dùng. Hỗ trợ viết content quảng cáo cho khách hàng.
 
-### Tính năng của hệ thống:
+## Functional requirements
 
-  - Quản lý người dùng hệ thống
-  - Quản lý tài nguyên của nhà sản xuất
-  - Quản lý chuỗi sự kiện trong quy trình sản xuất và liên kết tới sản phẩm
-  - Quản lý sản phẩm mà nhà sản xuất tạo ra
-  ....
-   
- ### Use cases
- 
-  Mục này liệt kê đầy đủ các use case cần thiết của hệ thống (sẽ cập nhập)
+  - Quản lý hộ sản xuất (đang kí, chỉnh sửa thông tin, khóa tài khoản etc.)
+  - Quản lý tài nguyên và quy trình sản xuất (tạo chỉnh sửa tài nguyên, cập nhập sự kiện trong quá trình sản xuất)
+  - Tạo mã định danh cho sản phẩm, liên kết với thông tin quy trình sản xuất
+  - Tạo catalog cho hộ sản xuất
+  - 
+   ....
 
 ## External Interface requirements
 
