@@ -18,19 +18,19 @@ người dùng có thể hiểu cách hệ thống vận hành.
 
 ### Terms and Definitions
 
-- Nhà sản xuất: là cá nhân, hộ kinh doanh hay doanh nghiệp nhỏ có nhu cầu minh bạch hóa thông tin về quy trình sản xuất sản phẩm với mục đích tăng doanh thu bán hàng. 
-- Nhà tiêu thụ: là các chủ siêu thị thu mua sản phẩm từ nhà sản xuất để bán trên trang thương mại điện tử của họ
+- *Nhà sản xuất*: là cá nhân, hộ kinh doanh hay doanh nghiệp nhỏ có nhu cầu minh bạch hóa thông tin về quy trình sản xuất sản phẩm với mục đích tăng doanh thu bán hàng. 
+- *Nhà tiêu thụ*: là các chủ siêu thị thu mua sản phẩm từ nhà sản xuất để bán trên trang thương mại điện tử của họ
 
-- Quản trị viên: là người điều hành hệ thống blockchainx
+- *Quản trị viên*: là người điều hành hệ thống blockchainx
 
-- Hỗ trợ viên: là người có thể sử dụng các tính năng nội bộ của hệ thống để hỗ trợ người dùng (nhà tiêu thụ)
+- *Hỗ trợ viên*: là người có thể sử dụng các tính năng nội bộ của hệ thống để hỗ trợ người dùng (nhà tiêu thụ)
 
-- Tài nguyên sản xuất: sở hữu của nhà sản xuất, là phương tiện để tạo ra sản phẩm đem bán (ví dụ ao tôm, vườn chuối ...). Chúng được số hóa trên hệ thống với định danh riêng và thông tin mô tả chi tiết. 
+- *Tài nguyên sản xuất*: sở hữu của nhà sản xuất, là phương tiện để tạo ra sản phẩm đem bán (ví dụ ao tôm, vườn chuối ...). Chúng được số hóa trên hệ thống với định danh riêng và thông tin mô tả chi tiết. 
 
-- Sản phẩm thô: Là gói sản phẩm chuyển từ nhà sản xuất sang nhà tiêu thị. Có
+- *Sản phẩm thô*: Là gói sản phẩm chuyển từ nhà sản xuất sang nhà tiêu thị. Có
   thể tách ra thành nhiều sản phẩm trên kệ.
   
-- Sản phẩm trên kệ: là sản phẩm bày bán trên kệ siêu thị, có gắn mã vạch và có
+- *Sản phẩm trên kệ*: là sản phẩm bày bán trên kệ siêu thị, có gắn mã vạch và có
   thể truy xuất nguồn gốc
 
 
@@ -51,7 +51,7 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
 
 ....
 
-### Người dùng:
+### :
 
  - Hộ sản xuất: sử dụng hệ thống để quản lý tài nguyên sản xuất và cập nhập các sự kiện
    liên quan đến quá trình sản xuất sản phẩm. Kết nối thông tin này với sản
@@ -68,7 +68,7 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
 ### Tính năng của hệ thống:
 
   - Quản lý người dùng hệ thống
-  - Quản lý tài nguyên củaA nhà sản xuất
+  - Quản lý tài nguyên của nhà sản xuất
   - Quản lý chuỗi sự kiện trong quy trình sản xuất và liên kết tới sản phẩm
   - Quản lý sản phẩm mà nhà sản xuất tạo ra
   ....
