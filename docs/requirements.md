@@ -1,4 +1,4 @@
-# System requirements document
+# System requirement specification
 
 ## Introduction
 
