@@ -69,7 +69,8 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
   - Quản lý tài nguyên và quy trình sản xuất (tạo chỉnh sửa tài nguyên, cập nhập sự kiện trong quá trình sản xuất)
   - Tạo mã định danh cho sản phẩm, liên kết với thông tin quy trình sản xuất
   - Tạo catalog cho hộ sản xuất
-  - 
+  - Truy xuất thông tin nhà sản xuất
+  - Truy xuất thông tin nguồn gốc sản phẩm
    ....
 
 ## External Interface requirements
