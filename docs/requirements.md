@@ -12,7 +12,7 @@ cần phải đáp ứng.
 
 Tài liệu là cơ sơ để thiết kế hệ thống. Nó cũng được dùng làm cơ sở để
 đánh giá tính hoàn thiện của hệ thống. Ngoài ra nó cũng giúp nhà đầu tư, hay
-người dùng có thể hiểu cách hệ thống sẽ hệ thống.
+người dùng có thể hiểu cách hệ thống vận hành.
 
 ### Terms and Definitions
 
@@ -39,6 +39,13 @@ nguồn gốc sản phẩm. Đối tượng chủ yếu là các sản phẩm c�
 thương mại điện tử. Nó cho phép nhà sản xuất có thể chủ động công khai minh
 bạch thông tin về quy trình sản xuất và liên kết chúng với từng sản phầm đầu ra
  trưng bán trên các trang thương mại điện tử được liên kết với hệ thống.
+ 
+ [Figure: tổng quan hệ thống - sẽ cập nhập]
+ 
+- Người dùng (hộ sản xuất) kết nối với hệ thống thông qua mobile app (chính) và giao diện web để cập nhập quy trình sản xuất, đăng ký sản phẩm
+- Siêu thị kết nối với hệ thống qua giao diện lập trình (restful API) để truy xuất thông tin
+- Quản trị viên/hỗ trợ viên truy cập hệ thống qua giao diện web để quản lý thông tin và điều khiển hệ thống.
+- Backend - front end, cơ sở dữ liệu, và mạng blockchain 
 
 ### Người dùng:
 
@@ -54,16 +61,16 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
    các khó khăn trong việc sử dụng hệ thống. Giải đáp các khúc mắc của người
    dùng. Hỗ trợ viết content quảng cáo cho khách hàng.
 
- ### Use cases
-  Mục này liệt kê đầy đủ các use case cần thiết của hệ thống (sẽ cập nhập)
-
 ### Tính năng của hệ thống:
 
   - Quản lý người dùng hệ thống
   - Quản lý tài nguyên củaA nhà sản xuất
   - Quản lý chuỗi sự kiện trong quy trình sản xuất và liên kết tới sản phẩm
   - Quản lý sản phẩm mà nhà sản xuất tạo ra
-	
+  
+ ### Use cases
+ 
+  Mục này liệt kê đầy đủ các use case cần thiết của hệ thống (sẽ cập nhập)
 
 ## External Interface requirements
 
