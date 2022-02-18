@@ -50,17 +50,18 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
 
 ....
 
- - Hộ sản xuất: sử dụng hệ thống để quản lý tài nguyên sản xuất và cập nhập các sự kiện
+### Đối tượng sử dụng hệ thống:
+
+ - Nhà sản xuất: sử dụng hệ thống để quản lý tài nguyên sản xuất và cập nhập các sự kiện
    liên quan đến quá trình sản xuất sản phẩm. Kết nối thông tin này với sản
    phẩm đóng gói. Trên cơ sở minh bạch thông tin về quy trình sản xuất để tạo uy tín và thương hiệu từ đó gia tăng doanh thu hiện tại hay tìm kiếm kênh bán hàng mới.
  
- - Chủ siêu thị: sử dụng hệ thống với hai mục đích:  1) truy xuất thông tin nhà sản xuất để đánh giá mức độ tin cậy từ đó hỗ trợ việc ra quyết định hợp tác kinh doanh. 2) kết nối với hệ thống để lấy thông tin nguồn gốc sản phẩm kéo về trang thương mại điện tử của họ.
+ - Nhà tiêu thụ: sử dụng hệ thống với hai mục đích:  1) truy xuất thông tin nhà sản xuất để đánh giá mức độ tin cậy từ đó hỗ trợ việc ra quyết định hợp tác kinh doanh. 2) kết nối với hệ thống để lấy thông tin nguồn gốc sản phẩm kéo về trang thương mại điện tử của họ.
  
- - Quản trị viên:  giám sát và điều hành hệ thống blockchainx.
+ - Quản trị viên:  giám sát và vận hành hệ thống blockchainx.
 
- - Hỗ trợ viên: truy cập thông tin người dùng hệ thống để hỗ trợ kịp thời
-   các khó khăn trong việc sử dụng hệ thống. Giải đáp các khúc mắc của người
-   dùng. Hỗ trợ viết content quảng cáo cho khách hàng.
+ - Hỗ trợ viên: sử dụng hệ thống để hỗ trợ kịp thời
+   các khó khăn trong việc sử dụng hệ thống từ phía khách hàng là nhà sản xuất hay nhà tiêu thụ. Hỗ trợ viết và cập content lên hệ thống theo yêu cầu từ phía nhà sản xuất.
 
 ## Functional requirements
 
