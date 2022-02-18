@@ -5,14 +5,13 @@
 ### Purpose
 
 Tài liệu này trình bày chi tiết hệ thống blockchainx. Nó giới thiệu tổng quan
-về hệ thống, chức năng của nó, đối tượng sử dụng hệ thống, các tính năng mà nó
-cần phải đáp ứng.
+về hệ thống, đối tượng sử dụng hệ thống, liệt kê các chức năng mà nó cần đáp ứng, đồng thời đưa ra các yêu cầu về giao diện sử dụng.
 
 Tài liệu sẽ được cập nhập liên tục để đáp ứng với yêu cầu mới hay thay đổi từ bên ngoài.
 
 ### Indended Audiences:
 
-Tài liệu là cơ sơ để thiết kế hệ thống. Nó cũng được dùng làm cơ sở để
+Tài liệu là cơ sơ để thiết kế kiến trúc hệ thống (xem [system design document](design-document.md)), được sử dụng bởi developers để tham khảo khi phát triển hệ thống. Nó cũng được dùng làm cơ sở để
 đánh giá tính hoàn thiện của hệ thống. Ngoài ra nó cũng giúp nhà đầu tư, hay
 người dùng có thể hiểu cách hệ thống vận hành.
 
@@ -51,8 +50,6 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
 
 ....
 
-### :
-
  - Hộ sản xuất: sử dụng hệ thống để quản lý tài nguyên sản xuất và cập nhập các sự kiện
    liên quan đến quá trình sản xuất sản phẩm. Kết nối thông tin này với sản
    phẩm đóng gói. Trên cơ sở minh bạch thông tin về quy trình sản xuất để tạo uy tín và thương hiệu từ đó gia tăng doanh thu hiện tại hay tìm kiếm kênh bán hàng mới.
@@ -76,7 +73,7 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
 
 ## External Interface requirements
 
-### Đối với người dùng là hộ sản xuất:
+### Đối với nhà sản xuất:
 
 Giao diện web hoặc mobile
  - Đăng ký tài khoản
@@ -87,13 +84,14 @@ Giao diện web hoặc mobile
  - Tạo, chỉnh sửa nội dung cho trang cá nhân, catalog sản phẩm
  ...
  
-### Đối với siêu thị:
+### Đối với nhà tiêu thụ:
+
 Giao diện APIs
  - truy xuất thông tin nhà sản xuất
  - truy xuất thông tin sản phẩm
 ...
 
-### Đối với quản trị hệ thống
+### Đối với quản trị viên
 
 Giao diện quản trị web/console
  - Chỉnh sửa thông tin hộ cá nhân theo yêu cầu
@@ -101,7 +99,7 @@ Giao diện quản trị web/console
  - Truy xuất thông tin (sản phẩm, sự kiện, người dùng)
  ..
  
-### Đối với nhân viên hỗ trợ
+### Đối với hỗ trợ viên
  - Tạo/chỉnh sửa catalog cho hộ cá nhân
 ...
 
