@@ -8,6 +8,8 @@ Tài liệu này trình bày chi tiết hệ thống blockchainx. Nó giới thi
 về hệ thống, chức năng của nó, đối tượng sử dụng hệ thống, các tính năng mà nó
 cần phải đáp ứng.
 
+Tài liệu sẽ được cập nhập liên tục để đáp ứng với yêu cầu mới hay thay đổi từ bên ngoài.
+
 ### Indended Audiences:
 
 Tài liệu là cơ sơ để thiết kế hệ thống. Nó cũng được dùng làm cơ sở để
@@ -47,6 +49,8 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
 - Quản trị viên/hỗ trợ viên truy cập hệ thống qua giao diện web để quản lý thông tin và điều khiển hệ thống.
 - Backend - front end, cơ sở dữ liệu, và mạng blockchain 
 
+....
+
 ### Người dùng:
 
  - Hộ sản xuất: sử dụng hệ thống để quản lý tài nguyên sản xuất và cập nhập các sự kiện
@@ -67,7 +71,8 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
   - Quản lý tài nguyên củaA nhà sản xuất
   - Quản lý chuỗi sự kiện trong quy trình sản xuất và liên kết tới sản phẩm
   - Quản lý sản phẩm mà nhà sản xuất tạo ra
-  
+  ....
+   
  ### Use cases
  
   Mục này liệt kê đầy đủ các use case cần thiết của hệ thống (sẽ cập nhập)
@@ -75,6 +80,7 @@ bạch thông tin về quy trình sản xuất và liên kết chúng với từ
 ## External Interface requirements
 
 ### Đối với người dùng là hộ sản xuất:
+
 Giao diện web hoặc mobile
  - Đăng ký tài khoản
  - Đăng nhâp tài khoản
@@ -82,11 +88,13 @@ Giao diện web hoặc mobile
  - Ghi chép sự kiện
  - Đóng gói sản phẩm đầu ra, tạo mã định danh cho sản phẩm
  - Tạo, chỉnh sửa nội dung cho trang cá nhân, catalog sản phẩm
+ ...
  
 ### Đối với siêu thị:
 Giao diện APIs
  - truy xuất thông tin nhà sản xuất
  - truy xuất thông tin sản phẩm
+...
 
 ### Đối với quản trị hệ thống
 
@@ -94,18 +102,22 @@ Giao diện quản trị web/console
  - Chỉnh sửa thông tin hộ cá nhân theo yêu cầu
  - Hiển thị thông tin thống kê chung toàn hệ thống
  - Truy xuất thông tin (sản phẩm, sự kiện, người dùng)
-
+ ..
+ 
 ### Đối với nhân viên hỗ trợ
  - Tạo/chỉnh sửa catalog cho hộ cá nhân
- 
+...
+
 
 ## Non-functional requirements:
 
 ### Performance requirements
 
  - Hệ thống cân được thiết kế cho phép mở rộng khi lượng người dùng gia tăng 
-
+ ...
+ 
 ### Security requirements:
 
- - Hỗ trợ đăng nhập 2-stéps 
-
+ - Hỗ trợ đăng nhập 2 bước
+ - Bảo mật thông tin người dùng
+ ...
