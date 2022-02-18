@@ -11,7 +11,7 @@ Tài liệu sẽ được cập nhập liên tục để đáp ứng với yêu 
 
 ### Indended Audiences:
 
-Tài liệu là cơ sơ để thiết kế kiến trúc hệ thống (xem [system design document](design-document.md)), được sử dụng kết hợp với tài liệu thiết kế bởi developers để tham khảo khi phát triển hệ thống. Nó cũng được dùng cho testers làm cơ sở để
+Tài liệu là cơ sơ để thiết kế kiến trúc hệ thống (xem [system design document](design-document.md)), được sử dụng (kèm với tài liệu thiết kế) bởi developers để tham khảo khi phát triển hệ thống. Nó cũng được dùng cho testers làm cơ sở để
 đánh giá tính hoàn thiện của hệ thống. Ngoài ra nó cũng giúp nhà đầu tư, hay
 người dùng có thể hiểu cách hệ thống vận hành.
 
